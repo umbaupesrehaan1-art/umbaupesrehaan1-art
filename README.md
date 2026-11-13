@@ -1,3 +1,4 @@
+
 # 👋 Hey, I'm Rehaan Usama Umba
 
 ### AI & Software Developer | Computer Engineering Student
@@ -15,20 +16,21 @@
 
 ## 👨‍💻 About Me
 
-I'm **Rehaan Usama Umba**, a Computer Engineering student passionate about Artificial Intelligence, software development, and building technology that solves real-world problems.
+I'm **Rehaan Usama Umba**, a Computer Engineering student passionate about Artificial Intelligence, software engineering, and building practical technology solutions.
 
 Currently pursuing my **B.Tech in Computer Engineering at Shah & Anchor Kutchhi Engineering College (SAKEC), Mumbai**.
 
-I enjoy experimenting with new technologies, developing software applications, integrating AI into practical solutions, and continuously improving my engineering skills.
+I enjoy turning ideas into working applications, experimenting with AI technologies, developing backend systems, and exploring how intelligent software can solve real-world problems.
 
 - 🎓 Second-year B.Tech Computer Engineering student
 - 🤖 Interested in Artificial Intelligence, Machine Learning and Generative AI
-- 💻 Building applications using Python, FastAPI, React and JavaScript
-- 🧠 Exploring LLM integration, AI applications and intelligent automation
-- 🚀 Interested in hackathons, innovation and open-source development
-- 🏗️ Working on real-world software and hardware projects
+- 💻 Building applications with Python, FastAPI, React and JavaScript
+- 🧠 Exploring LLM integration, AI-powered applications and intelligent automation
+- 🔬 Interested in code analysis, software verification and AI-assisted development
+- 🚀 Participating in hackathon-oriented problem solving and project development
+- 🏗️ Experience with software applications and Arduino-based hardware projects
 - 🎯 Long-term goal: Become an AI Engineer and eventually an AI Architect
-- 📍 Mumbai, Maharashtra, India
+- 📍 Mumbai, India
 
 > **My philosophy:** Learn continuously. Build practically. Innovate fearlessly.
 
@@ -36,7 +38,7 @@ I enjoy experimenting with new technologies, developing software applications, i
 
 ## ⚡ Tech Stack & Technologies
 
-Technologies and tools I have worked with or explored.
+Technologies I have worked with, used in projects, or explored through hands-on learning.
 
 ### 💻 Programming Languages
 
@@ -66,8 +68,9 @@ Technologies and tools I have worked with or explored.
 ### 🤖 AI & Generative AI
 
 <p align="left">
+  <img src="https://img.shields.io/badge/Artificial_Intelligence-412991?style=flat-square&logo=openai&logoColor=white" alt="Artificial Intelligence"/>
   <img src="https://img.shields.io/badge/Generative_AI-412991?style=flat-square&logo=openai&logoColor=white" alt="Generative AI"/>
-  <img src="https://img.shields.io/badge/LLM_Integration-333333?style=flat-square&logo=googlegemini&logoColor=white" alt="LLM Integration"/>
+  <img src="https://img.shields.io/badge/LLM_Integration-333333?style=flat-square" alt="LLM Integration"/>
   <img src="https://img.shields.io/badge/Prompt_Engineering-555555?style=flat-square" alt="Prompt Engineering"/>
   <img src="https://img.shields.io/badge/Python_AST-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python AST"/>
 </p>
@@ -82,73 +85,126 @@ Technologies and tools I have worked with or explored.
 
 ## 🚀 Featured Projects
 
-Selected projects, experiments and engineering work.
+A collection of software applications, AI experiments, engineering projects and practical development work.
 
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="24" height="24" align="center"/> 1. ProofGate AI
+### 🛡️ 1. ProofGate AI
 
 **Evidence-First Verification System for AI-Generated Code**
 
-An evidence-first verification system designed to evaluate AI-generated code changes through code analysis, automated testing and verifiable evidence rather than blindly trusting generated outputs.
+ProofGate AI is a system designed to inspect AI-generated Python code changes and evaluate them using structured evidence rather than blindly trusting generated outputs.
 
-**Key Focus Areas**
-- Static code analysis using Python AST
-- Automated testing and validation using Pytest
-- Evidence-based code verification
-- AI and LLM integration
-- Backend API development
-- Database integration
+It combines static code analysis, evidence collection, deterministic policy evaluation and a web-based dashboard.
+
+**Key Features**
+- Python source analysis using AST
+- Static code and syntax inspection
+- Unified diff inspection
+- Structured evidence collection
+- Deterministic verification policy
+- Public GitHub repository and pull-request inspection
+- React-based verification dashboard
+- Backend and frontend automated tests
 
 **Technology Stack**
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square" alt="Pytest"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square"/>
 </p>
+
+**Important:** The current implementation performs read-only static analysis. It does not execute submitted code or regression tests, so it does not claim runtime verification.
 
 **Status:** Active Development
 
+🔗 **Repository:** [ProofGate AI](https://github.com/umbaupesrehaan1-art/proofgate-ai)
+
 ---
 
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="24" height="24" align="center"/> 2. NavApp – AI Dead Reckoning Navigation
+### 🧭 2. NavApp – AI Dead Reckoning Navigation
 
 **AI-Based Navigation for GPS-Denied Environments**
 
-An intelligent navigation project focused on maintaining location awareness in GPS-denied environments using dead reckoning and sensor-based navigation approaches.
+NavApp is a navigation-focused project developed around **Smart India Hackathon Problem Statement PS168**.
 
-Developed around the **Smart India Hackathon Problem Statement PS168**.
+The project explores dead reckoning techniques and AI-assisted approaches to maintain location awareness when conventional GPS positioning is unavailable or unreliable.
 
 **Key Focus Areas**
 - Dead Reckoning
-- Sensor-based navigation
-- AI/ML experimentation
-- GPS-denied positioning
-- Navigation system development
+- GPS-denied navigation
+- Sensor-based positioning concepts
+- AI/ML model development
+- Navigation and location estimation
+- SIH problem-solving and experimentation
 
 **Status:** Hackathon Project / Development
 
 ---
 
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="24" height="24" align="center"/> 3. MachineGuard AI
+### 🏭 3. MachineGuard AI
 
-**Intelligent Machine Monitoring**
+**AI-Based Intelligent Machine Monitoring**
 
-An AI-focused project exploring intelligent machine monitoring and the identification of potential operational abnormalities.
+MachineGuard AI is an AI-focused project exploring intelligent machine monitoring and the identification of potential operational abnormalities.
+
+The idea focuses on applying intelligent analysis to machine-related data to support monitoring and predictive maintenance concepts.
 
 **Key Focus Areas**
 - Artificial Intelligence
-- Predictive maintenance
 - Machine monitoring
+- Predictive maintenance concepts
 - Operational abnormality detection
-- Intelligent analysis
+- Intelligent data analysis
 
-**Status:** Project Exploration
+**Status:** Project Development / Exploration
 
 ---
 
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" width="24" height="24" align="center"/> 4. Arduino-Based Automation
+### 🔌 4. API Hub – Daily Motivation Hub
+
+**A Python-Powered Application for Daily Inspiration Through Public APIs**
+
+A Python application that integrates multiple public APIs to provide users with daily inspiration, interesting information and random content through an interactive terminal interface.
+
+The application brings together API integration, data handling and Excel-based storage in one project.
+
+**Key Features**
+- Integration with public APIs for advice, quotes, books and dog images
+- Interactive command-line interface
+- Terminal styling using Rich and Colorama
+- API response handling using Requests
+- Excel workbook storage using OpenPyXL
+- Local image storage and management
+
+**Technology Stack**
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/REST_APIs-009688?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Requests-2CA5E0?style=flat-square"/>
+  <img src="https://img.shields.io/badge/OpenPyXL-217346?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Rich-555555?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Colorama-555555?style=flat-square"/>
+</p>
+
+**What I Learned**
+- Working with external APIs
+- Handling JSON responses
+- Managing application data
+- Excel automation
+- Building interactive Python CLI applications
+
+**Status:** Developed
+
+🔗 **Repository:** [API Hub](https://github.com/umbaupesrehaan1-art/api-hub)
+
+---
+
+### 🤖 5. Arduino-Based Automation
 
 **Sensor Integration & Hardware Automation**
 
@@ -160,23 +216,30 @@ A completed and working hardware automation project involving Arduino-based cont
 - L298N Motor Driver
 - DC Motor
 - Jumper Wires
-- Electronic Components and Circuits
+- Resistors and electronic components
+
+**Key Learning Areas**
+- Microcontroller programming
+- Sensor integration
+- Hardware interfacing
+- Motor control
+- Basic embedded systems
 
 **Status:** Completed and Working
 
 ---
 
-### 🧩 5. OriginX
+### 🧩 6. OriginX
 
-An independent project in my development portfolio.
+An independent project in my development portfolio, representing my exploration of software development and building new ideas.
 
 **Status:** Project in Portfolio
 
 ---
 
-### 🎮 6. Clockwork Archipelago
+### 🎮 7. Clockwork Archipelago
 
-An independent creative project in my development portfolio.
+A creative independent project in my development portfolio, reflecting my interest in experimenting with ideas and developing digital experiences.
 
 **Status:** Project in Portfolio
 
@@ -189,25 +252,27 @@ An independent creative project in my development portfolio.
 Shah & Anchor Kutchhi Engineering College (SAKEC), Mumbai
 
 - Current Year: Second Year
-- Field: Computer Science & Engineering / Computer Engineering
+- Degree: B.Tech
+- Field: Computer Engineering
 
 ---
 
 ## 📜 Certifications & Professional Learning
 
-**Python Full Stack Development**
+### Python Full Stack Development
 - AICTE / EduSkills Virtual Internship
 - Python Full Stack specialization
 
-**Java Spring Boot**
+### Java Spring Boot
 - Completed course and assessment
 
-**Additional Learning**
+### Additional Learning
 - Data Structures and Algorithms
 - Object-Oriented Programming
 - Database Management Systems
 - Web Development
-- Artificial Intelligence and Generative AI
+- Artificial Intelligence
+- Generative AI and LLM integration
 
 ---
 
@@ -221,7 +286,7 @@ Shah & Anchor Kutchhi Engineering College (SAKEC), Mumbai
 | Generative AI | LLMs, AI agents and API integration |
 | Backend Engineering | FastAPI, REST APIs and PostgreSQL |
 | Frontend Engineering | React.js and Next.js |
-| Software Engineering | Clean code, testing and architecture |
+| Software Engineering | Testing, clean code and system architecture |
 | Innovation | Hackathons and real-world problem solving |
 
 ---
@@ -253,16 +318,9 @@ Shah & Anchor Kutchhi Engineering College (SAKEC), Mumbai
   <a href="https://github.com/umbaupesrehaan1-art">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-  <a href="mailto:umbaupesrehaan1@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
 </p>
 
-**Email:** umbaupesrehaan1@gmail.com
-
-**Contact:** +91 9892350666
-
-**Location:** Mumbai, Maharashtra, India
+**GitHub:** [umbaupesrehaan1-art](https://github.com/umbaupesrehaan1-art)
 
 ---
 
